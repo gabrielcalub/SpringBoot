@@ -15,7 +15,6 @@ public class SheepFarm {
         long startTimeTraditional = System.nanoTime();
         for (int i = 0; i < numberOfSheep; i++) {
             Sheep newBlackSheep = new BlackSheep("Jane");
-            System.out.println("here");
             newBlackSheep.setName("Black Sheep " + i);
             System.out.println("Black sheep: " + newBlackSheep.getName());
         }

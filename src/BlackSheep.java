@@ -3,7 +3,6 @@ public class BlackSheep implements Sheep {
 
     public BlackSheep(String name) {
         this.name = name;
-        System.out.println("this a new clone");
     }
 
     @Override
